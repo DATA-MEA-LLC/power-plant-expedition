@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- 
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
+<!-- Google tag (gtag.js) -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
+    <!--
+      This is the page head - it contains info the browser uses
+      Like the title, which appears on the browser tab but not inside the page
+      Further down you'll see the content that displays in the page
+    -->
+   <title>The Great Power Plant Expedition</title>
+    <meta name="description" content="power plant expedition" />
+   
+
+    <!-- The website stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- The website JavaScript file -->
+    <script type="text/javascript" src="/script.js" defer></script>
+    <!-- Google tag (gtag.js) -->
+
+<!----Place Google Analitycs-------->
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PGXVMRXVG6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PGXVMRXVG6');
+</script>
+  </head>
+  <style>
+  .container { 
+
+  position: relative;
+  
+}
+  footer {
+   margin-top:30px;
+  text-align: center;
+  padding: 3px;
+  background-color: #52605e;
+  color: white;
+}
+  </style>
+  <body style="background-color:#f2f2f0;text-align:center " onload="numberLoad()" >
+<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGK7U8gAaM&#x2F;5cvTo45G-XwlNOoIFKOwJg&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+
+  <div style="margin-top:30px"   class="container">
+       <a  id="number" href="" download=""></a>
+    </div>
+  <div id="intro"  class=" text-center">
+  
+      <!-- <div id="boton"  >
+   <button style="display:block;margin:auto;border-radius:50%;margin-top:10px" type="button" class="btn btn-warning " onclick="appear()"><img  src="https://cdn.glitch.global/d07427dc-af65-42ec-85cf-427e6068fbc9/play-button.png?v=1712928140520" style="width:80px;height:80px"></button>
+    </div>
+    </div>-->
+
+   
+    <div id="activity1" class="container">
+
+                 <h1>
+ The Great Power Plant Expedition
+    </h1>
+            
+
+      <br>
+       <img src="https://cdn.glitch.global/9fdbeeb6-2738-4428-a90f-49db258d1a9d/ear.png?v=1706117126357"  style="width:40px;height:40px">
+           <p>
+        Listen to a mini story!
+      </p>
+      <button onclick="show()">English</button>
+      <button onclick="showEs()">Español</button>
+       <audio id="en" style="display:none;margin-left:35%" controls>
+       <source src="https://cdn.glitch.global/431933b3-8620-4289-a2a0-ee5ed28d7390/en-power-plant-ElevenLabs_2024-07-16T16_08_16_Gigi_pre_s37_sb75_se49_b_m2.mp3?v=1721146287889" type="audio/mpeg">
+      </audio>
+    
+      <audio id="es" style="display:none;margin-left:35%" controls>
+       <source src="https://cdn.glitch.global/431933b3-8620-4289-a2a0-ee5ed28d7390/es-power-plant-ElevenLabs_2024-07-16T16_16_59_Antoni_pre_s50_sb75_se42_b_m2.mp3?v=1721146871125" type="audio/mpeg">
+       
+      </audio>
+       <h4>
+        Activity: draw the image in your notebook
+      </h4>
+   <h6>
+        Dibuja la imagen en tu libreta.
+      </h6>
+    </div>
+ 
+      <div id="activity2" class="container ">
+   
+    <model-viewer id="image" type="module" src="https://cdn.glitch.global/431933b3-8620-4289-a2a0-ee5ed28d7390/vintage_light_pack.glb?v=1721063788514" alt="vintage light bulb pack" auto-rotate camera-controls 
+
+style="width:400px;height:400px;margin:auto "
+></model-viewer>
+    <div id="activity3" class ="container">
+   
+      <p  id="p1" style="color:black">
+   en: vintage light bulb pack
+  </p>
+    
+  <p id="p2"  style="color:black" >
+   es: paquete de bombillas antiguas
+  </p>
+       <button onclick="changeImg()" type="button" class="btn btn-warning"  >
+     <img src="https://cdn.glitch.global/9fdbeeb6-2738-4428-a90f-49db258d1a9d/change-image.gif?v=1706116780846" style="width:70px;height:70px"  data-toggle="tooltip" title="Change Image!/Cambiar imagen" >
+  </button> 
+        </div>
+  </div>
+    
+    </div>
+          <footer>
+    <p>Author: Mayra Rios<br>
+  <a href="https://www.oteogo.com" style="color:white">oteogo.com</a></p>
+      <img src="https://cdn.glitch.global/91082ae9-3c5d-4c1b-8320-e3bebf48c5f5/AHPR_Sello%20de%20Productos_Color%20Dorado.png?v=1718549908285" style="width:120px;height:120px">
+            <p>
+              Copyright (c) 2024 by DATA MEA LLC
+            </p>
+    </footer>
+   
+  </body>
+</html>
